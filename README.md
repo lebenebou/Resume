@@ -1,2 +1,2 @@
 # Resume
-LebeneBou's Resume
+LebeneBou's awesome resume
