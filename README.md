@@ -1,2 +1,2 @@
 # Resume
-LebeneBou's awesome resume
+LebeneBou's resume made in photoshop
