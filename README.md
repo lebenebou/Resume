@@ -1,2 +1,2 @@
 # Resume
-LebeneBou's resume made in photoshop
+Showing off some photohop skills in my resume.
