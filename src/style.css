@@ -6,7 +6,7 @@ body {
     align-items: center;
     height: 100vh;
 
-    background-image: url("background.png");
+    background-image: url("../images/background.png");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Bahnschrift", sans-serif;
@@ -27,7 +27,7 @@ a:hover {
 color: rgb(225, 255, 0); /* Color on hover */
 }
 
-/* circular crop for and border for profile picture */
+/* circular crop and border for profile picture */
 img {
     border-radius: 50%;
     border: 5px solid rgb(39, 39, 39);
@@ -39,4 +39,5 @@ img {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
