@@ -1,39 +1,43 @@
 
-body {
+body{
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.center_div {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
 
-    background-image: url("../images/background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    
     font-family: "Bahnschrift", sans-serif;
     color: white;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
+.social_link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    visibility: hidden;
+}
+
 #name {
-    font-size: 55px;
+    font-size: 50px;
     margin-bottom: 10px;
 }
 
-a {
-    color: rgb(32, 181, 255); /* Color for visited and active links */
-    font-size: 30px;
-}
-  
-a:visited, a:active {
-    color: rgb(32, 181, 255); /* Color for visited and active links */
-}
-  
-a:hover {
-color: rgb(225, 255, 0); /* Color on hover */
-}
-
 /* circular crop and border for profile picture */
-img {
+#profile_pic {
+
+    position: relative;;
     border-radius: 50%;
     border: 5px solid rgb(255, 255, 255);
     width: 300px;
@@ -45,4 +49,12 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease-in-out;
+    visibility: visible;
+}
+
+#profile_pic:hover{
+
+    transform: scale(0.9);
+    transition: transform 0.5s ease-in-out;
 }
